@@ -1,0 +1,27 @@
+yarn init -y
+yarn add express
+
+yarn add --dev typescript
+yarn tsc --init
+
+Criar pasta SRC
+
+configurar tsconfig.json
+--"target": "es2020"
+--"outDir": "dist"  
+--"rootDir": "src"
+--"esModuleInterop": true
+--"resolveJsonModule": true
+--"sourceMap": true
+
+yarn tsc
+--converte aruivos ts para js
+
+executar criando arquivo de script
+-- node dist/index.js
+
+yarn tsc
+yarn start
+
+yarn add @types/express
+
